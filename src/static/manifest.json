@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "VoiceBrowse",
+  "description": "An extension that automates Chrome accessibility for differently-abled users.",
+  "version": "1.0.0",
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "VoiceBrowse",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "sessions",
+    "storage",
+    "activeTab",
+    "tabs",
+    "bookmarks",
+    "scripting"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q",
+        "mac": "Command+Shift+Q",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+J"
+      }
+    }
+  }
+}

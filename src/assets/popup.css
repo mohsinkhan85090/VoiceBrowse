@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(193, 193, 239);
+}
+
+.chatSection {
+    height: 60px;
+    width: 80%;
+    /* background-color: red; */
+    margin: 5px auto;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(40px);
+}
+
+.response {
+    height: 90px;
+    width: 80%;
+    margin: 0px auto;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(40px);
+
+}
+
+.chatresponse {
+    padding: 10px 2px;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+button {
+    position: absolute;
+}
+
+.wave {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.recoder {
+    position: absolute;
+
+}
