@@ -45,7 +45,7 @@ By incorporating these features, VoiceBrowse aims to revolutionize your browsing
 9. Good to go.
 
 ## `User Manual`
-https://docs.google.com/document/d/1G9RbwXlzVBfP9EhXfa8g86L4aA3Xhe8vvdIymB6dg74/edit?usp=sharing
+https://docs.google.com/document/d/1Bnr18Xgorqaxjv27G7RzMRLV-w2P4lYr_1AKjFTQGrY/edit?usp=sharing
 ## `Usage`
 
 1. Voice Navigation: With VoiceBrowse, you can navigate through your tabs and bookmarks using voice commands, eliminating the need for manual clicking and scrolling. It provides a hands-free and intuitive browsing experience.
